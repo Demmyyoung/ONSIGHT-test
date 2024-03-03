@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ON SIGHT </title>
     <link rel="stylesheet" type="text/css" href="/css/home.css">
+    <link rel="icon" href="/IMG/LOGO.jpg">
 </head>
 
 <body>
 
     <nav>
         <ul>
-            <a href="/cart.html"><img src="/IMG/bag (1).png" alt="cart" /> </a>
+            <a href="/index.html"><img src="/IMG/LOGO.jpg" alt="cart" /> </a>
         </ul>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -37,44 +38,54 @@
                 <img src="/IMG/UTOPIA ( PURPLE ).png  " alt="Product 1">
                 <h3>UTOPIA</h3>
                 <p>Description of Product 1.</p>
-                <button class="custom-button">Add to Cart</button>
+                <a href="https://paystack.com/pay/on-sightclothing-utopia" target="_blank">
+                <button class="custom-button">BUY</button>
+                </a>
             </section>
-
             <section>
                 <img src="/IMG/TRUST NO ONE ( BLACK ).png" alt="Product 2">
                 <h3>TRUST NO ONE</h3>
                 <p>Description of Product 2.</p>
-                <button class="custom-button">Add to Cart</button>
+                <a href="https://paystack.com/pay/on-sightclothing-trust-no-one" target="_blank">
+                    <button class="custom-button">BUY</button>
+                    </a>
             </section>
             <section>
                 <img src="/IMG/Tee 2 - Copy (8).png" alt="Product 2">
-                <h3>Product 2</h3>
+                <h3>PURP Tee</h3>
                 <p>Description of Product 2.</p>
-                <button class="custom-button">Add to Cart</button>
+                <a href="https://paystack.com/pay/on-sightclothing-purp-tee" target="_blank">
+                    <button class="custom-button">BUY</button>
+                    </a>
             </section>
             <section>
                 <img src="/IMG/FAITH OVER FAIR.png" alt="Product 2">
                 <h3> FAITH OVER FAIR</h3>
                 <p>Description of Product 2.</p>
-                <button class="custom-button">Add to Cart</button>
+                <a href="https://paystack.com/pay/on-sightclothing" target="_blank">
+                <button class="custom-button">BUY</button>
+                </a>
             </section>
             <section>
                 <img src="/IMG/DOOMS DAY.png" alt="Product 2">
                 <h3>DOOMS DAY</h3>
                 <p>Description of Product 2.</p>
-                <button class="custom-button">Add to Cart</button>
+                <a href="https://paystack.com/pay/on-sightclothing-dooms-day-tee" target="_blank">
+                    <button class="custom-button">BUY</button>
+                    </a>
             </section>
-            <section>
-                <img src="" alt="Product 2">
-                <h3>Product 2</h3>
-                <p>Description of Product 2.</p>
-                <button class="custom-button">Add to Cart</button>
-            </section>
+            
         </div>
         <!-- Add more sections for additional products -->
-
     </main>
-    <script src="home.js"></script>
+    <script>
+        function addToCart(productName) {
+            var cartList = document.getElementById("cartList");
+            var cartItem = document.createElement("li");
+            cartItem.innerText = productName;
+            cartList.appendChild(cartItem);
+        }
+    </script>
 </body>
 
 </html>

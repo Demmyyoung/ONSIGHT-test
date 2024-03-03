@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Shopping Cart</title>
+  <style>
+    /* Basic styling for the layout */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .item {
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 8px 15px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    #cart {
+      margin-top: 20px;
+      borde
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+    <div class="item">
+      
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input {
+  padding: 13px 0px 13px 25px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #555555;
+}
+
+.card-grp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item {
+  width: 48%;
+}
+
+.space {
+  margin-bottom: 20px;
+}
+
+.icon-relative {
+  position: relative;
+}
+
+.icon-relative .fas,
+.icon-relative .far {
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.btn {
+  
+}
+
+.btn:hover {
+  background-color: #ddd;
+  /* Change this to the desired color on hover */
+  transition: 0.3s;
+  color: black;
+}
+
+
+
+
+
+
+
+Grid HTML Code
+<section>
+                <img src="/IMG/SHORTS( GREY ).png" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Description of Product 2.</p>
+                <button class="custom-button">BUY</button>
+            </section>
+            <section>
+                <img src="/IMG/BLACK DEFY ALL.png" alt="Product 2">
+                <h3>BLACK DEFY ALL</h3>
+                <p>Description of Product 2.</p>
+                <button class="custom-button">BUY</button>
+            </section>
+            <section>
+                <img src="/IMG/DR3AMS TSHIRT GREY.png" alt="Product 2">
+                <h3>DR3AMS TSHIRT GREY</h3>
+                <p>Description of Product 2.</p>
+                <button class="custom-button">BUY</button>
+            </section>
+            <section>
+                <img src="/IMG/Hoodie 3.png" alt="Product 2">
+                <h3>Hoodie </h3>
+                <p>Description of Product 2.</p>
+                <button class="custom-button">BUY</button>
+            </section>
+            <section>
+                <img src="/IMG/LUMINISCENT TSHIRT.png" alt="Product 2">
+                <h3>LUMINISCENT TSHIRT</h3>
+                <p>Description of Product 2.</p>
+                <button class="custom-button">BUY</button>
+            </section>
+            <section>
+                <img src="/IMG/BACK OF CROSS SHIRT.png" alt="Product 2">
+                <h3> CROSS SHIRT</h3>
+                <p>Description of Product 2.</p>
+                <button class="custom-button">BUY</button>
+            </section>
+            <section>
+                <img src="/IMG/dreamer 1.png" alt="Product 2">
+                <h3>dreamer</h3>
+                <p>Description of Product 2.</p>
+                <button class="custom-button">BUY</button>
+            </section>
+            <section>
+                <img src="/IMG/Doomsday Generation (2).png" alt="Product 2">
+                <h3> 2</h3>
+                <p>Description of Product 2.</p>
+                <button class="custom-button">BUY</button>
+            </section>
